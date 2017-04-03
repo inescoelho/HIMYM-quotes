@@ -38,7 +38,8 @@ function setTweetText(text, name, index) {
     var tweetBtn = $('<a></a>')
         .addClass('twitter-share-button')
         .attr('href', 'http://twitter.com/share')
-        .attr('data-url', 'http://www.inescoelho.info/HIMYM-quotes?q=' + index)
+    //    .attr('data-url', 'http://www.inescoelho.info/HIMYM-quotes?q=' + index)
+		.attr('data-url', 'http://www.inescoelho.info/HIMYM-quotes)
         .attr('data-size', 'large') 
         .attr('data-text', txt);
     $('#tshare').append(tweetBtn);
