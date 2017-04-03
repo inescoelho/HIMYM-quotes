@@ -1,0 +1,64 @@
+html, body {
+    height:100%;
+}
+
+.wrapper {
+  background-image:url("How_I_Met_Your_Mother.jpg");
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	//display: block;
+	//position: relative;
+	height: 95%;
+}
+
+.info {
+  height:  90%;
+  	display: block;
+	position: relative;
+  max-height:100%;
+  padding-top: 15%;
+}
+
+.title H2{
+  color: black;
+  font-weight: bold;
+  background-color: rgba(245, 245, 245, 0.2);
+  //width: 70%;
+}
+
+.quote {
+  width: 70%;
+  background-color: rgba(245, 245, 245, 0.8);
+  position: relative;
+  max-height: 250px;
+  overflow-y: auto;
+}
+
+.quoteAuthor {font-style: italic;}
+
+#newQuote {
+  background-color: black;
+  border-color: black;
+  height:29px;
+}
+
+.footer {
+  align-content: right;
+  //color: black;
+  background-color: black;
+}
+
+.mybtn {
+  vertical-align: top;
+}
+
+@media screen and (max-width: 750px) and (orientation: landscape) {
+  .wrapper {
+    height: 200%;
+  }
+  
+  .quote {
+    max-height: 150px;
+  }
+}
